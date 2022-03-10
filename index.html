@@ -1,40 +1,118 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+	<title>reveal.js</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Mindful pause</section>
-				<section>Slide 2</section>
-			</div>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+	</style>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/custom.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background-video="img/mindful_pause-01.mp4">
+				<h2>Mindful pause</h2>
+				<p>Before we start talking about the technology...</p>
+			</section>
+			<section data-background-video="img/family_01.mp4">
+				<h2>Think</h2>
+				<p>... about those memorable moments</p>
+			</section>
+			<section data-background-video="img/anniversary-01.mp4">
+				<p>...like <b>anniversaries</b></p>
+			</section>
+			<section data-background-image="img/purchase-01.jpeg">
+				<div style="background-color: rgba(0, 0, 0, 0.3); color: #fff; padding: 40px;">
+					<h2>Looking for <br/>the perfect present</h2>
+					<p>...and you make the purchase</p>
+				</div>
+			</section>
+			<section data-background-image="img/package_delivery-01.jpeg">
+				<div style="background-color: rgba(0, 0, 0, 0.0); color: #fff; padding: 20px;">
+					<h2>Parcel arrived</h2>
+					<p>...the special present arrived at your address</p>
+				</div>
+			</section>
+			<section data-background-video="img/frustrated_man-01.mp4">
+				<div style="background-color: rgba(0, 0, 0, 0.0); color: #fff; padding: 40px;">
+					<h2>Frustration!</h2>
+					<p>...because the size of the present is not right</p>
+				</div>
+			</section>
+			<section data-background-image="img/man_contacting-01.jpeg">
+				<div style="background-color: rgba(0, 0, 0, 0.0); color: #fff; padding: 40px;">
+					<h2>Try to resolve it</h2>
+					<p>...connecting with the vendor</p>
+				</div>
+			</section>
+			<section data-background-image="img/contact_center-01.jpeg">
+				<div style="background-color: rgba(0, 0, 0, 0.0); color: #fff; padding: 40px;">
+					<h2>Contact center overwhelmed</h2>
+					<p>...waiting times between <br/><b>20-45 min</b></p>
+				</div>
+			</section>
+			<section data-background-video="img/frustrated_couple-01.mp4">
+				<div style="background-color: rgba(0, 0, 0, 0.0); color: #fff; padding: 40px;">
+					<h2>Non-desired end result</h2>
+					<p><b>Unrecoverable</b><br/>customer experience</p>
+				</div>
+			</section>	
+			<section data-background-color="#480CA8">
+				<div style="background-color: rgba(0, 0, 0, 0.0); color: #fff; padding: 40px;">
+					<h2>What would be the desired experience</h2>
+					<p>Let us help you deliver a delightful experience</p>
+				</div>
+				<div><p><b>Talkdesk</b></p></div>
+			</section>
+			<section data-background-color="#fefefe">
+				<section data-background-image="img/talkdesk/Talkdesk AI V2 JBTD Customer Journey.png">
+				</section>
+				<section data-background-image="img/talkdesk/Talkdesk AI V2 JBTD 1.png">
+				</section>
+				<section data-background-image="img/talkdesk/Talkdesk AI V2 JBTD 2.png">
+				</section>
+				<section data-background-image="img/talkdesk/Talkdesk AI V2 JBTD 3.png">
+				</section>
+				<section data-background-image="img/talkdesk/Talkdesk AI V2 JBTD Customer Journey Platform.png">
+				</section>		
+			</section>
+			<section data-background-iframe="https://crm.designworkstudio.org/bankco"></section>
+			<section data-background-color="#480CA8">
+				<h2>Which type of brand would you like to be?</h2>
+				<p>Talkdesk can guide you to deliver exceptional customer experience</p>
+			</section>
 		</div>
+	</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
 </html>
